@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShareNumberOneViewController">
+            <connections>
+                <outlet property="lbl1" destination="STB-ht-LBh" id="UmR-Kz-7zN"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="STB-ht-LBh">
+                    <rect key="frame" x="20" y="46" width="280" height="177"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8S3-qx-KS1">
+                    <rect key="frame" x="37" y="206" width="117" height="108"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="Twitter_bird_icon">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="twittear:" destination="-1" eventType="touchUpInside" id="CJ5-s0-ZAL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggZ-Fm-CFR">
+                    <rect key="frame" x="185" y="213" width="101" height="96"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="images">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="putInFb:" destination="-1" eventType="touchUpInside" id="peT-ny-15Z"/>
+                    </connections>
+                </button>
+                <toolbar clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="17O-TV-ooj">
+                    <rect key="frame" x="0.0" y="460" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                    <items>
+                        <barButtonItem image="add_user-128(13)" width="83" id="FSE-NO-G3a">
+                            <connections>
+                                <action selector="goToRegisterClient:" destination="-1" id="gJH-xQ-nvz"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem image="alert-128-1" id="Ex8-FM-Ncc">
+                            <connections>
+                                <action selector="countProspects:" destination="-1" id="PcJ-Yk-TFC"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem image="5e9d5cab-1" width="82" id="IgA-gv-gXH">
+                            <connections>
+                                <action selector="goToSocial:" destination="-1" id="I7p-UF-Mw4"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem image="list_ingredients" id="TKT-EY-ayl">
+                            <connections>
+                                <action selector="goToProspectList:" destination="-1" id="bMJ-T7-Zfr"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="barTintColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="5e9d5cab-1" width="37" height="37"/>
+        <image name="Twitter_bird_icon" width="250" height="250"/>
+        <image name="add_user-128(13)" width="36" height="36"/>
+        <image name="alert-128-1" width="35" height="35"/>
+        <image name="images" width="112" height="112"/>
+        <image name="list_ingredients" width="32" height="32"/>
+    </resources>
+</document>

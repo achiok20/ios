@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShareViewController">
+            <connections>
+                <outlet property="cuartotexto" destination="Bp9-ZI-RbJ" id="v6X-fP-sPT"/>
+                <outlet property="primertexto" destination="zA8-7M-9Ro" id="S3m-7E-jVl"/>
+                <outlet property="segundotexto" destination="FVh-NO-tN7" id="Y69-Qx-cKs"/>
+                <outlet property="tercertexto" destination="bWV-06-TNo" id="X9m-WO-pc7"/>
+                <outlet property="view" destination="1" id="3"/>
+                <outlet property="viewNumFour" destination="TKH-6M-oTn" id="Hc1-WN-iDN"/>
+                <outlet property="viewNumOne" destination="vRv-dx-f37" id="fMB-Tr-Q8X"/>
+                <outlet property="viewNumThree" destination="SNd-C6-bmY" id="dFd-aO-lIE"/>
+                <outlet property="viewNumTwo" destination="29R-6W-adt" id="Y5o-ET-gp1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="vRv-dx-f37">
+                    <rect key="frame" x="5" y="29" width="75" height="97"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zA8-7M-9Ro">
+                            <rect key="frame" x="4" y="0.0" width="67" height="88"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <string key="text">Need college housing? Check out OnMyBlock's iOS app. Developing an app for your business or within your company? Contact me @ TeclaLabs.com!</string>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" id="29R-6W-adt">
+                    <rect key="frame" x="82" y="29" width="75" height="97"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FVh-NO-tN7">
+                            <rect key="frame" x="1" y="-11" width="72" height="100"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <string key="text">
+To.Day : helping you organize your daily routines. Let's talk about your business' digital needs. TeclaLabs.com https://itunes.apple.com/gw/app/to.day/id741267884?mt=8
+</string>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" id="SNd-C6-bmY">
+                    <rect key="frame" x="161" y="29" width="75" height="97"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bWV-06-TNo">
+                            <rect key="frame" x="1" y="-12" width="73" height="89"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <string key="text">
+Ready to tee off some golf lessons this weekend? SwaggleGolf - powered by TL.
+http://www.swagglegolf.com
+</string>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" id="TKH-6M-oTn">
+                    <rect key="frame" x="239" y="29" width="75" height="97"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bp9-ZI-RbJ">
+                            <rect key="frame" x="3" y="12" width="69" height="73"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <string key="text">Doing some pretty cool mobile stuff for Miller Time @ Tecla Labs.
+http://www.teclalabs.com
+</string>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="7"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <toolbar clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" id="7Sf-v0-WAR">
+                    <rect key="frame" x="0.0" y="460" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                    <items>
+                        <barButtonItem image="add_user-128(13)" width="83" id="C5f-2K-zWw">
+                            <connections>
+                                <action selector="goToRegisterClient:" destination="-1" id="nUR-vk-yO7"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem image="alert-128-1" id="N2s-Xv-T2I">
+                            <connections>
+                                <action selector="countProspects:" destination="-1" id="r6r-Ug-aNP"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem image="5e9d5cab-1" width="82" id="wTz-Nk-j2X">
+                            <connections>
+                                <action selector="goToSocial:" destination="-1" id="VyK-FF-uGu"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem image="list_ingredients" id="DLf-mW-tOa">
+                            <connections>
+                                <action selector="goToProspectList:" destination="-1" id="Vqu-ti-aP6"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="barTintColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" translucent="NO" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="5e9d5cab-1" width="37" height="37"/>
+        <image name="add_user-128(13)" width="36" height="36"/>
+        <image name="alert-128-1" width="35" height="35"/>
+        <image name="list_ingredients" width="32" height="32"/>
+    </resources>
+</document>
